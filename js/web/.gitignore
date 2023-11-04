@@ -7,7 +7,6 @@ dist/
 tsconfig.tsbuildinfo
 
 !lib/build-def.d.ts
-
 lib/**/*.js
 lib/**/*.js.map
 test/**/*.js
@@ -18,6 +17,7 @@ script/**/*.js.map
 !/types.d.ts
 
 lib/wasm/binding/**/*.wasm
+!lib/wasm/binding/**/ort-wasm-threaded-custom.worker.js
 !lib/wasm/binding/**/*.d.ts
 
 test/testdata-config.json
